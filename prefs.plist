@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DSADDR</key>
+	<string>https://127.0.0.1:5001</string>
+	<key>DSDEST</key>
+	<string>Downloads/Inbox</string>
+	<key>DSPASSWD</key>
+	<string>password</string>
+	<key>DSUSER</key>
+	<string>downloader</string>
+</dict>
+</plist>
