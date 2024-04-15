@@ -307,7 +307,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>./ds.sh a '{query}' $DSDEST</string>
+                <string>./src/ds.sh a '{query}' $DSDEST</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -489,7 +489,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>./ds.sh s</string>
+                <string>./src/ds.sh s</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -653,7 +653,7 @@ echo -n $query | grep \|</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>./ds.sh d '{query}'</string>
+                <string>./src/ds.sh d '{query}'</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
