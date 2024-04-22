@@ -16,9 +16,12 @@ python workflow-build.py .
 ## Supported shortcuts
 We currently support the following commands
 ```
-sd download <link>
-sd list
-sd delete <task_id>
+# Download link on Synology
+sd <link>
+# List download tasks on Synology & copy task ids
+sl
+# Delete tasks by id
+sdel <task_id_list>
 ```
 
 ## Acknowledgement

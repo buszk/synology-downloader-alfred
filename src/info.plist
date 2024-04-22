@@ -23,7 +23,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>F932E718-9BF2-4129-9361-8CD82385309A</string>
+				<string>7C7A27FD-DEFA-4077-9683-26B4D11F3BE5</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -70,6 +70,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>60270D2D-A675-4266-8AEF-C00F64838C29</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2F5EC5EC-6747-4CCA-AC13-6FFB26FB0084</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>6C85DF3C-59DF-48B5-ABE4-DD05AA346F6C</key>
 		<array>
 			<dict>
@@ -85,6 +98,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>8135C33A-BEE2-4118-9951-B8C7D45C69B6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>702D93AF-0D38-4D55-869A-4EA2D40C9790</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2FCCEF66-98F4-4151-950F-E38B4EBE72AD</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -179,94 +205,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>AA2BC7F0-392D-429E-9FB3-D761B286BB5B</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>2F5EC5EC-6747-4CCA-AC13-6FFB26FB0084</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>C808A605-5A54-4D9B-8767-E77305757EA5</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>7C7A27FD-DEFA-4077-9683-26B4D11F3BE5</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>F57511A8-24D4-4608-B993-22578BD2FAF3</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>C808A605-5A54-4D9B-8767-E77305757EA5</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>0DA0CC7B-7214-43F6-8CB8-F9BA0E3241B1</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>2FCCEF66-98F4-4151-950F-E38B4EBE72AD</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>99D74820-758C-4A86-AB68-742F21A3C826</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>AA2BC7F0-392D-429E-9FB3-D761B286BB5B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>F5E20C7E-ABAE-402D-83F7-6A078BDF3124</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>1D884050-C92D-47CE-AD35-F95E78BC01DF</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>F932E718-9BF2-4129-9361-8CD82385309A</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>F57511A8-24D4-4608-B993-22578BD2FAF3</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Zekun Shen</string>
@@ -307,7 +245,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-                <string>./src/ds.sh a '{query}' $DSDEST</string>
+				<string>./ds.sh a '{query}' $DSDEST</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -321,6 +259,27 @@
 			<string>7C7A27FD-DEFA-4077-9683-26B4D11F3BE5</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>sd</string>
+				<key>subtext</key>
+				<string>Send download task to synology</string>
+				<key>text</key>
+				<string>Synology download</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2F63F263-5E78-431D-9839-B378681201FC</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -357,23 +316,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{var:split2}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>C808A605-5A54-4D9B-8767-E77305757EA5</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alignment</key>
 				<integer>0</integer>
 				<key>backgroundcolor</key>
@@ -403,131 +345,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>sd</string>
-				<key>subtext</key>
-				<string>Subcommand download,list,delete</string>
-				<key>text</key>
-				<string>Synology downloader</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>2F63F263-5E78-431D-9839-B378681201FC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:split1}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>download</string>
-						<key>outputlabel</key>
-						<string>download</string>
-						<key>uid</key>
-						<string>0DA0CC7B-7214-43F6-8CB8-F9BA0E3241B1</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:split1}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>list</string>
-						<key>outputlabel</key>
-						<string>list</string>
-						<key>uid</key>
-						<string>99D74820-758C-4A86-AB68-742F21A3C826</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:split1}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>delete</string>
-						<key>outputlabel</key>
-						<string>delete</string>
-						<key>uid</key>
-						<string>F5E20C7E-ABAE-402D-83F7-6A078BDF3124</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-				<key>hideelse</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>F57511A8-24D4-4608-B993-22578BD2FAF3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-                <string>./src/ds.sh s</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>11</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>2FCCEF66-98F4-4151-950F-E38B4EBE72AD</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>delimiter</key>
-				<string> </string>
-				<key>discardemptyarguments</key>
-				<false/>
-				<key>outputas</key>
-				<integer>0</integer>
-				<key>trimarguments</key>
-				<false/>
-				<key>variableprefix</key>
-				<string>split</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.split</string>
-			<key>uid</key>
-			<string>F932E718-9BF2-4129-9361-8CD82385309A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -549,6 +366,50 @@ echo -n $query | grep \|</string>
 			<string>6C85DF3C-59DF-48B5-ABE4-DD05AA346F6C</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./ds.sh s</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2FCCEF66-98F4-4151-950F-E38B4EBE72AD</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>sl</string>
+				<key>subtext</key>
+				<string>List downloading tasks on synology nas</string>
+				<key>text</key>
+				<string>Synology List Tasks</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>702D93AF-0D38-4D55-869A-4EA2D40C9790</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -648,12 +509,33 @@ echo -n $query | grep \|</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>sdel</string>
+				<key>subtext</key>
+				<string>Delete synology download tasks</string>
+				<key>text</key>
+				<string>Delete Tasks</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>60270D2D-A675-4266-8AEF-C00F64838C29</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-                <string>./src/ds.sh d '{query}'</string>
+				<string>./ds.sh d '{query}'</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -724,55 +606,6 @@ echo -n $query | grep \|</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string>{var:split2}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>AA2BC7F0-392D-429E-9FB3-D761B286BB5B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alignment</key>
-				<integer>0</integer>
-				<key>backgroundcolor</key>
-				<string></string>
-				<key>fadespeed</key>
-				<integer>0</integer>
-				<key>fillmode</key>
-				<integer>0</integer>
-				<key>font</key>
-				<string></string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>largetypetext</key>
-				<string>Unknown command: {var:split1}
-Currently supported commands are
-- sd download &lt;link&gt;
-- sd list</string>
-				<key>textcolor</key>
-				<string></string>
-				<key>wrapat</key>
-				<integer>50</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.largetype</string>
-			<key>uid</key>
-			<string>1D884050-C92D-47CE-AD35-F95E78BC01DF</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alignment</key>
 				<integer>0</integer>
 				<key>backgroundcolor</key>
@@ -809,56 +642,63 @@ Currently supported commands are
 		<key>12DBA7D1-81D3-406C-A4CB-5B5A7B376593</key>
 		<dict>
 			<key>xpos</key>
-			<real>1180</real>
+			<real>1170</real>
 			<key>ypos</key>
 			<real>415</real>
-		</dict>
-		<key>1D884050-C92D-47CE-AD35-F95E78BC01DF</key>
-		<dict>
-			<key>xpos</key>
-			<real>435</real>
-			<key>ypos</key>
-			<real>545</real>
 		</dict>
 		<key>2F5EC5EC-6747-4CCA-AC13-6FFB26FB0084</key>
 		<dict>
 			<key>xpos</key>
-			<real>585</real>
+			<real>355</real>
 			<key>ypos</key>
 			<real>400</real>
 		</dict>
 		<key>2F63F263-5E78-431D-9839-B378681201FC</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<real>50</real>
 			<key>ypos</key>
-			<real>210</real>
+			<real>85</real>
 		</dict>
 		<key>2FCCEF66-98F4-4151-950F-E38B4EBE72AD</key>
 		<dict>
 			<key>xpos</key>
-			<real>475</real>
+			<real>355</real>
 			<key>ypos</key>
 			<real>235</real>
 		</dict>
 		<key>5FAD18A8-87B9-4B30-9FB6-B67B1C636006</key>
 		<dict>
 			<key>xpos</key>
-			<real>710</real>
+			<real>580</real>
 			<key>ypos</key>
 			<real>105</real>
+		</dict>
+		<key>60270D2D-A675-4266-8AEF-C00F64838C29</key>
+		<dict>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>400</real>
 		</dict>
 		<key>6C85DF3C-59DF-48B5-ABE4-DD05AA346F6C</key>
 		<dict>
 			<key>xpos</key>
-			<real>785</real>
+			<real>755</real>
 			<key>ypos</key>
-			<real>245</real>
+			<real>220</real>
+		</dict>
+		<key>702D93AF-0D38-4D55-869A-4EA2D40C9790</key>
+		<dict>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>235</real>
 		</dict>
 		<key>7C7A27FD-DEFA-4077-9683-26B4D11F3BE5</key>
 		<dict>
 			<key>xpos</key>
-			<real>515</real>
+			<real>355</real>
 			<key>ypos</key>
 			<real>85</real>
 		</dict>
@@ -872,37 +712,30 @@ Currently supported commands are
 		<key>90858F61-A0B4-4699-AB6D-12E9B3D1CCE1</key>
 		<dict>
 			<key>xpos</key>
-			<real>650</real>
+			<real>575</real>
 			<key>ypos</key>
-			<real>275</real>
+			<real>255</real>
 		</dict>
 		<key>9B1B3049-7B3F-4D8D-80E9-1B7CA98856E4</key>
 		<dict>
 			<key>xpos</key>
-			<real>750</real>
+			<real>575</real>
 			<key>ypos</key>
 			<real>420</real>
 		</dict>
 		<key>A7737775-3CD5-4F00-994F-3584168180FC</key>
 		<dict>
 			<key>xpos</key>
-			<real>865</real>
+			<real>755</real>
 			<key>ypos</key>
-			<real>395</real>
-		</dict>
-		<key>AA2BC7F0-392D-429E-9FB3-D761B286BB5B</key>
-		<dict>
-			<key>xpos</key>
-			<real>470</real>
-			<key>ypos</key>
-			<real>430</real>
+			<real>385</real>
 		</dict>
 		<key>B2858589-2305-41E4-B446-7054758727CF</key>
 		<dict>
 			<key>xpos</key>
-			<real>840</real>
+			<real>760</real>
 			<key>ypos</key>
-			<real>20</real>
+			<real>70</real>
 		</dict>
 		<key>BDB1B8A2-9B34-4AEE-8545-161D02BF34C8</key>
 		<dict>
@@ -910,13 +743,6 @@ Currently supported commands are
 			<real>775</real>
 			<key>ypos</key>
 			<real>585</real>
-		</dict>
-		<key>C808A605-5A54-4D9B-8767-E77305757EA5</key>
-		<dict>
-			<key>xpos</key>
-			<real>430</real>
-			<key>ypos</key>
-			<real>115</real>
 		</dict>
 		<key>D3E21C48-1C35-43E7-B74D-0B5838D5CF76</key>
 		<dict>
@@ -928,23 +754,9 @@ Currently supported commands are
 		<key>F22FEE42-36EE-4A99-9152-6898261D5C3E</key>
 		<dict>
 			<key>xpos</key>
-			<real>1050</real>
+			<real>995</real>
 			<key>ypos</key>
 			<real>165</real>
-		</dict>
-		<key>F57511A8-24D4-4608-B993-22578BD2FAF3</key>
-		<dict>
-			<key>xpos</key>
-			<real>300</real>
-			<key>ypos</key>
-			<real>215</real>
-		</dict>
-		<key>F932E718-9BF2-4129-9361-8CD82385309A</key>
-		<dict>
-			<key>xpos</key>
-			<real>200</real>
-			<key>ypos</key>
-			<real>240</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -1034,8 +846,10 @@ Currently supported commands are
 			<string>DSDEST</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string></string>
+	<string>0.1.0</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
